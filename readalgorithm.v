@@ -138,9 +138,9 @@ module readalgorithm (clk, clock, start, reset, button0, button1, temp_number, r
 				else if (ct1 == 6) begin
 					ct1 <= 3'd6; // since 1 input comes while 6 box is full, slide one
 					ct_dropped <= ct_dropped + 10'd1;
-					for(i=3'd0; i < 3'd5; i=i+3'd1) begin
-						buffer1[3'd5-i] <= buffer1[3'd4-i];
-					end
+						for(i=3'd0; i < 3'd5; i=i+3'd1) begin
+							buffer1[3'd5-i] <= buffer1[3'd4-i];
+						end
 					buffer1[3'd0] <= number_to_store;
 				end
 			end
@@ -153,9 +153,9 @@ module readalgorithm (clk, clock, start, reset, button0, button1, temp_number, r
 				else if (ct2 == 6) begin
 					ct2 <=3'd6; // since 1 input comes while 6 box is full, slide one
 					ct_dropped <= ct_dropped + 10'd1;
-					for(i=3'd0; i < 3'd5; i=i+3'd1) begin
-						buffer2[3'd5-i] <= buffer2[3'd4-i];
-					end
+						for(i=3'd0; i < 3'd5; i=i+3'd1) begin
+							buffer2[3'd5-i] <= buffer2[3'd4-i];
+						end
 					buffer2[3'd0] <= number_to_store;
 				end
 			end
@@ -168,9 +168,9 @@ module readalgorithm (clk, clock, start, reset, button0, button1, temp_number, r
 					else if (ct3 == 6) begin
 						ct3 <= 3'd6; // since 1 input comes while 6 box is full, slide one
 						ct_dropped <= ct_dropped + 10'd1;
-						for(i=3'd0; i < 3'd5; i=i+3'd1) begin
-							buffer3[3'd5-i] <= buffer3[3'd4-i];
-						end
+							for(i=3'd0; i < 3'd5; i=i+3'd1) begin
+								buffer3[3'd5-i] <= buffer3[3'd4-i];
+							end
 						buffer3[3'd0] <= number_to_store;
 					end
 			end
@@ -183,9 +183,9 @@ module readalgorithm (clk, clock, start, reset, button0, button1, temp_number, r
 				else if (ct4 == 6) begin
 					ct4 <= 3'd6; // since 1 input comes while 6 box is full, slide one
 					ct_dropped <= ct_dropped + 10'd1;
-					for(i=3'd0; i < 3'd5; i=i+3'd1) begin
-						buffer4[3'd5-i] <= buffer4[3'd4-i];
-					end
+						for(i=3'd0; i < 3'd5; i=i+3'd1) begin
+							buffer4[3'd5-i] <= buffer4[3'd4-i];
+						end
 					buffer4[3'd0] <= number_to_store;
 				end
 			end
