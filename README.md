@@ -24,7 +24,7 @@ Monitored VGA screen is shownn below too.
 
 ![fig4](https://user-images.githubusercontent.com/88316097/178003207-b19797ea-6b06-44ef-84b7-b878a80f09e9.png)
 
-Some Testbench results of the QoS system can be found in the following link. 
+Some Testbench results of the QoS system can be found in the following results. 
 
 ![figure1](https://user-images.githubusercontent.com/88316097/178003594-07e274a7-ff0d-4a46-98c4-fc63d29ddf6d.png)
 
