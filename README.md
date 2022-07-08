@@ -5,6 +5,8 @@ we have implemented a queuing algorithm using Verilog HDL on FPGAs.
 
 Visualization of QoS system is transferred to the monitor through VGA implementation. 
 Priority Queuing and First in & First out implementation is utilized in that system.
+
+
 QoS project video presentation is provided link below. 
 
 https://youtu.be/pKJ2QgwZ-wY
