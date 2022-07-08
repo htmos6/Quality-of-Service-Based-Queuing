@@ -11,6 +11,7 @@ https://youtu.be/pKJ2QgwZ-wY
 
 
 
-
+Each buffers' weight is designed according to following table.
+![Copy of priority table](https://user-images.githubusercontent.com/88316097/178002606-d37c98ef-96a1-4653-8f34-9f0710c4cf9e.png)
 
 
