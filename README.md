@@ -26,6 +26,8 @@ Monitored VGA screen is shownn below too.
 
 VGA implementation diagram is designed according to following schematic.
 
+![5  general block diagram](https://user-images.githubusercontent.com/88316097/178036638-d3c7b32d-d849-41bb-8b5c-0065a0bd69a4.png)
+
 Some Testbench results of the QoS system can be found in the following results. 
 
 ![figure1](https://user-images.githubusercontent.com/88316097/178003594-07e274a7-ff0d-4a46-98c4-fc63d29ddf6d.png)
