@@ -3,8 +3,10 @@ Basically, Quality of Service (QoS)
 networks are developed to control the data traffic to optimize the network capacity. In this project,
 we have implemented a queuing algorithm using Verilog HDL on FPGAs.
 
-Visualization of QoS system is transferred to the monitor through VGA implementation. 
-Priority Queuing and First in & First out implementation is utilized in that system.
+Visualization of the QoS system is transferred to the monitor through VGA implementation. 
+Priority Queuing and First in & First out the implementation are utilized in that system.
+4-bit input data are stored inside four different buffers, and each buffer consists of 6 boxes. 
+The weight of each buffer is designed and determined according to the designed buffer weight table.
 
 
 QoS project video presentation is provided link below. 
