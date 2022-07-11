@@ -7,6 +7,7 @@ Visualization of the QoS system is transferred to the monitor through VGA implem
 Priority Queuing and First in & First out the implementation are utilized in that system.
 4-bit input data are stored inside four different buffers, and each buffer consists of 6 boxes. 
 The weight of each buffer is designed and determined according to the designed buffer weight table.
+Upper pink box shows readed data from buffers. Lower pink data shows entered 4 bit data synchronously. 
 
 
 QoS project video presentation is provided link below. 
